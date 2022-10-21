@@ -1,0 +1,87 @@
+@import url(./reset.css);
+
+/* Main Nav */
+body > nav ul {
+  display:flex;
+  justify-content: space-around;
+  background: #1B9CFC;
+}
+
+body > nav li {
+    padding: 1em;
+}
+
+body > nav a {
+    text-decoration: none;
+    color:greenyellow;
+}
+
+body > nav a:hover {
+    color:orange;
+}
+
+/* HEADER */
+body > header {
+    height: 300px;
+    background: url(../images/Lightining.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: yellow;
+}
+
+body > h1 {
+    font-size: 3.4em;
+}
+body > h1 {
+    font-size: 2.1em;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: grey;
+    color: aquamarine;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 2;
+}
+
+article {
+    width: 200px;
+    padding: 1em;
+}
+
+artcile img {
+    width: 100%;  
+}
+
+#content {
+    display: flex;
+}
+/* ASIDE */
+aside {
+   width: 30%;
+   order: 1;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 1em;
+}
